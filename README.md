@@ -3,7 +3,7 @@
 A modern data transformation pipeline that integrates and transforms sample data from **Jaffle Shop** (a fictional e-commerce dataset) and **Stripe** (payment processing data) for analytics. Built with ❤️ using `dbt` (data build tool) and Airflow.
 
 ---
-![image](https://github.com/user-attachments/assets/9ee49239-d75c-41c3-8d28-88080796f6a7)
+![diagram (1)](https://github.com/user-attachments/assets/5318a375-055b-4f1c-8db3-fa99277cd58c)
 
 
 ## 📖 Overview
@@ -16,7 +16,7 @@ This pipeline demonstrates how to:
 Ideal for learning data transformation patterns, idempotent modeling, and data quality testing with `dbt`.
 
 ## 🔄 Data Flow
-
+![image](https://github.com/user-attachments/assets/9ee49239-d75c-41c3-8d28-88080796f6a7)
 ### Source Data
 1. **Jaffle Shop** (`raw.jaffle_shop`)
    - `customers`: Raw customer information
